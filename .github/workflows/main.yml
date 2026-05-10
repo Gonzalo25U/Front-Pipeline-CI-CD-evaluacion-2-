@@ -41,8 +41,7 @@ jobs:
           tags: |
             gonzalo25u/frontend:latest
             gonzalo25u/frontend:${{ github.sha }}
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
+          no-cache: true
 
   # ────────────────────────────────────────────────────────────────────────────
   # JOB 2: Desplegar en EC2 "web" (acceso SSH directo desde internet)
