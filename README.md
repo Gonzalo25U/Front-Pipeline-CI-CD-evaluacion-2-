@@ -8,7 +8,7 @@ Frontend de la aplicación de gestión de ventas y despachos, desarrollado con *
 
 ![Pipeline en verde](docs/pipeline.png)
 
-## 🌐 Frontend desplegado en AWS
+## 🌐 Frontend(web) desplegado en AWS
 
 ![Frontend](docs/AWS-instancias.png)
 
